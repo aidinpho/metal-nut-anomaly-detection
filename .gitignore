@@ -1,0 +1,70 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+datasets/
+
+# Trained models and weights
+models/
+*.pt
+*.pth
+*.ckpt
+*.joblib
+
+# Experiment outputs
+results/
+runs/
+archive/
+
+# Logs and caches
+*.log
+*.cache
+lightning_logs/
+wandb/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local/private project notes and credentials
+PROJECT_AUDIT.md
+PROJECT_STATUS.md
+.env
+.streamlit/secrets.toml
+
+# Local videos are inspection inputs, not source artifacts
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Public release allowlist: keep only metal_nut training/evaluation scripts
+src/*
+!src/anomaly_detection/
+src/anomaly_detection/*
+!src/anomaly_detection/train_patchcore.py
+!src/anomaly_detection/train_efficientad.py
+!src/anomaly_detection/train_padim_metal_nut.py
+!src/anomaly_detection/compare_metal_nut_models.py
+!src/anomaly_detection/evaluate_patchcore.py
+!src/anomaly_detection/evaluate.py
+!src/anomaly_detection/evaluate_padim_metal_nut.py
+!src/anomaly_detection/benchmark_models.py

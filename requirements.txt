@@ -1,0 +1,15 @@
+﻿# Core project dependencies
+anomalib==2.7.0
+ultralytics==8.4.198
+streamlit==1.65.0
+
+# Computer Vision
+opencv-python==5.0.0.93
+Pillow==12.3.0
+
+# Data Science
+numpy==2.2.6
+pandas==2.3.3
+matplotlib==3.10.9
+
+# PyTorch is installed separately using requirements-cu126.txt
